@@ -9,6 +9,6 @@ int main()
 	{
 		my_array.append(i);
 	}
-	std::print("{0}", my_array[1]);
+	std::print("{0}\n", my_array[1]);
 	return 0;
 }

@@ -6,22 +6,16 @@
 namespace core::threads
 {
 	using task_fn = rawptr_t (*)(rawptr_t arg);
+	using thread_t = thrd_t;
+	using mutex_t = mtx_t;
 
-	enum class thread_result
+	enum class result
 	{
 		success  = thrd_success,
 		nomemory = thrd_nomem,
 		timedout = thrd_timedout,
 		busy     = thrd_busy,
 		error    = thrd_error
-	};
-
-	struct worker
-	{
-	};
-
-	struct pool
-	{
 	};
 }
 #endif
