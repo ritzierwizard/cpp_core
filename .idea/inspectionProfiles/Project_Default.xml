@@ -1,0 +1,44 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="ClangTidy" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="clangTidyChecks" value="-*,bugprone-*,mpi-*,performance-*,cert-err52-cpp,cert-err60-cpp,cert-err34-c,cert-str34-c,cert-msc50-cpp,cert-msc51-cpp,cert-dcl58-cpp,cert-flp30-c,cppcoreguidelines-macro-usage,cppcoreguidelines-use-enum-class,cppcoreguidelines-pro-type-member-init,cppcoreguidelines-pro-type-reinterpret-cast,cppcoreguidelines-pro-type-const-cast,cppcoreguidelines-slicing,cppcoreguidelines-pro-type-cstyle-cast,cppcoreguidelines-interfaces-global-init,cppcoreguidelines-pro-type-static-cast-downcast,cppcoreguidelines-narrowing-conversions,google-default-arguments,google-runtime-operator,hicpp-multiway-paths-covered,hicpp-exception-baseclass,misc-*,-misc-definitions-in-headers,-misc-non-private-member-variables-in-classes,modernize-*,-modernize-use-string-view,-modernize-use-std-format,-modernize-avoid-variadic-functions,-modernize-use-structured-binding,-modernize-use-default-member-init,-modernize-use-ranges,-modernize-use-starts-ends-with,-modernize-use-std-bit,-modernize-use-trailing-return-type,-modernize-avoid-c-arrays,-modernize-avoid-c-style-cast,-modernize-avoid-setjmp-longjmp,-modernize-min-max-use-initializer-list,-modernize-use-std-numbers,-modernize-use-scoped-lock,-modernize-use-std-print,-modernize-use-integer-sign-comparison,-modernize-macro-to-enum,openmp-use-default-none,portability-*,-portability-restrict-system-includes,-portability-no-assembler,readability-*,-readability-function-size,-readability-identifier-length,-readability-trailing-comma,-readability-magic-numbers,-readability-use-std-min-max,-readability-avoid-nested-conditional-operator,-readability-static-accessed-through-instance,-readability-function-cognitive-complexity,-readability-identifier-naming" />
+    </inspection_tool>
+    <inspection_tool class="Clazy" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES" />
+    <inspection_tool class="CppClassCanBeFinal" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFAArrayIndexOutOfBounds" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFAConstantConditions" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFAConstantFunctionResult" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFAConstantParameter" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFADeletedPointer" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFAEndlessLoop" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFAInfiniteRecursion" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFAInvalidatedMemory" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFALocalValueEscapesFunction" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFALocalValueEscapesScope" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFALoopConditionNotUpdated" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFAMemoryLeak" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFANotInitializedField" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFANullDereference" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFATimeOver" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFAUnreachableCode" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFAUnreachableFunctionCall" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFAUnreadVariable" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFAUnusedValue" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppEnforceDoStatementBraces" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppEnforceForStatementBraces" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppEnforceIfStatementBraces" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppEnforceWhileStatementBraces" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppInconsistentNaming" enabled="true" level="HINT" enabled_by_default="true" />
+    <inspection_tool class="CppLocalVariableWithNonTrivialDtorIsNeverUsed" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppRedundantQualifierADL" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppUnnecessaryWhitespace" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="Misra" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES" />
+    <inspection_tool class="RadGlobal" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+  </profile>
+</component>
