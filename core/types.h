@@ -1,5 +1,6 @@
 #ifndef CPP_CORE_TYPES_H
 #define CPP_CORE_TYPES_H
+
 #include <type_traits>
 #include <cstddef>
 #include <cstdint>

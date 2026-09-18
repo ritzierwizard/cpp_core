@@ -4,6 +4,7 @@
 
 #ifndef CPP_CORE_MEM_H
 #define CPP_CORE_MEM_H
+
 #include "types.h"
 #include <sys/mman.h>
 
