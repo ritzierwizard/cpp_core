@@ -12,22 +12,22 @@
 
 namespace core
 {
-	template <typename TypeT, isize_t Size>
+	template <typename TypeT, isize Size>
 	struct array_t
 	{
 		TypeT items[Size];
-		isize_t len = 0;
+		isize len = 0;
 
 		/*
 		 *	Made access to array_t::Size a static method
 		 *	to avoid ambiguity regarding the runtime cost of access.
 		 */
-		static constexpr isize_t cap()
+		static constexpr isize cap()
 		{
 			return Size;
 		}
 
-		TypeT& at(const isize_t index)
+		TypeT& at(const isize index)
 		{
 			#ifndef NDEBUG
 			assert(index < len && index >= 0);
@@ -35,7 +35,7 @@ namespace core
 			return items[index];
 		}
 
-		[[nodiscard]] const TypeT& at(isize_t index) const
+		[[nodiscard]] const TypeT& at(isize index) const
 		{
 			#ifndef NDEBUG
 			assert(index < len && index >= 0);
@@ -44,12 +44,12 @@ namespace core
 		}
 
 		// OPERATOR OVERLOADS
-		TypeT& operator[](const isize_t index)
+		TypeT& operator[](const isize index)
 		{
 			return at(index);
 		}
 
-		const TypeT& operator[](const isize_t index) const
+		const TypeT& operator[](const isize index) const
 		{
 			return at(index);
 		}

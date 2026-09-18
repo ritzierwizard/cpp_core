@@ -6,9 +6,9 @@
 
 namespace core::threads
 {
-	using task_fn = rawptr_t (*)(rawptr_t arg);
-	using thread_t = thrd_t;
-	using mutex_t = mtx_t;
+	using task_fn = rawptr (*)(rawptr arg);
+	using thread = thrd_t;
+	using mutex = mtx_t;
 
 	enum class result
 	{

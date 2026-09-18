@@ -4,8 +4,8 @@
 
 int main()
 {
-	core::array_t<core::int32_t, static_cast<core::isize_t>(32)> my_array{};
-	for (core::int32_t i = 0; i < my_array.cap(); i++)
+	core::array_t<core::int32, static_cast<core::isize>(32)> my_array{};
+	for (core::int32 i = 0; i < my_array.cap(); i++)
 	{
 		my_array.append(i);
 	}
