@@ -8,8 +8,6 @@
  *	Container providing a static array with opt-out bounds checking.
  *	If you do not want bounds checking on all array accesses, define NDEBUG
  *	at the top of your program.
- *
- *	The
  */
 
 namespace core
