@@ -21,11 +21,9 @@ set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -g -Og")
 set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -O2")
 
 
-add_executable(c_core
+add_executable(cpp_core
         main.cpp
-        core/threading.h
         core/types.h
         core/utils.h
         core/array.h
-        core/threading.h
         core/mem.h)

@@ -1,0 +1,32 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="ClangTidy" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="Clazy" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="CppClassCanBeFinal" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFAArrayIndexOutOfBounds" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFAConstantConditions" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFAConstantFunctionResult" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFAConstantParameter" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFADeletedPointer" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFAEndlessLoop" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFAInfiniteRecursion" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFAInvalidatedMemory" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFALocalValueEscapesFunction" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFALocalValueEscapesScope" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFALoopConditionNotUpdated" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFAMemoryLeak" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFANotInitializedField" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFANullDereference" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFATimeOver" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFAUnreachableCode" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFAUnreachableFunctionCall" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFAUnreadVariable" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppDFAUnusedValue" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppRedundantQualifierADL" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppUnnecessaryWhitespace" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppUseAuto" enabled="false" level="HINT" enabled_by_default="false" />
+    <inspection_tool class="CppUseAutoForNumeric" enabled="false" level="HINT" enabled_by_default="false" />
+    <inspection_tool class="Misra" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES" />
+  </profile>
+</component>
