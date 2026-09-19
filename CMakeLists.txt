@@ -20,7 +20,6 @@ add_compile_options(
 set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -g -Og")
 set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -O2")
 
-
 add_executable(cpp_core
         main.cpp
         core/types.h

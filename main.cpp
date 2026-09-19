@@ -1,7 +1,10 @@
-#include <cstdint>
+#include <print>
+
+#include "types.h"
 
 int main()
 {
-	int32_t t;
+	int32 t{};
+	std::print("{0}", t);
 	return 0;
 }

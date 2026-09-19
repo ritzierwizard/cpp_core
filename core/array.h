@@ -29,17 +29,13 @@ namespace core
 
 		TypeT& at(const isize index)
 		{
-			#ifndef NDEBUG
 			assert(index < len && index >= 0);
-			#endif
 			return items[index];
 		}
 
 		[[nodiscard]] const TypeT& at(isize index) const
 		{
-			#ifndef NDEBUG
 			assert(index < len && index >= 0);
-			#endif
 			return items[index];
 		}
 

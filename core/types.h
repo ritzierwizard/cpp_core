@@ -5,8 +5,6 @@
 #include <cstddef>
 #include <cstdint>
 
-namespace core
-{
 	using rawptr = void*;
 	using isize  = std::make_signed_t<size_t>;
 	using usize  = size_t;
@@ -21,5 +19,4 @@ namespace core
 	using uint64  = uint64_t;
 	using uint128 = __uint128_t;
 	using int128  = __int128_t;
-}
 #endif
