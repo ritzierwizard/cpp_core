@@ -11,13 +11,13 @@
  */
 
 template <typename TypeT, isize Size>
-struct array_t
+struct array
 {
 	TypeT items[Size];
 	isize len = 0;
 
 	/*
-	 *	Made access to array_t::Size a static method
+	 *	Made access to array::Size a static method
 	 *	to avoid ambiguity regarding the runtime cost of access.
 	 */
 	static constexpr isize cap()
