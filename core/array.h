@@ -52,9 +52,7 @@ namespace core
 
 		void append(TypeT item)
 		{
-			#ifndef NDEBUG
 			assert(len < cap());
-			#endif
 			items[len] = item;
 			len++;
 		}
