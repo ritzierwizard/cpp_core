@@ -37,6 +37,13 @@ struct array
 		return items[index];
 	}
 
+	void append(TypeT item)
+	{
+		assert(len < cap());
+		items[len] = item;
+		len++;
+	}
+
 	// OPERATOR OVERLOADS
 	TypeT& operator[](const isize index)
 	{
@@ -46,13 +53,6 @@ struct array
 	const TypeT& operator[](const isize index) const
 	{
 		return at(index);
-	}
-
-	void append(TypeT item)
-	{
-		assert(len < cap());
-		items[len] = item;
-		len++;
 	}
 };
 #endif
